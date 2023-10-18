@@ -120,14 +120,14 @@ article h2 {
     text-indent: 10px;
 }
 
-div.video {
+section.video {
     position: relative;
     background-color: var(--cor5);
     margin: 0px -10px;
     padding: 175px;
 }
 
-div.video > iframe {
+section.video > iframe {
     position: absolute;
     top: 5%;
     left: 5%;
