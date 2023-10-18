@@ -31,6 +31,9 @@ body {
     background-color: var(--cor1);
     font-family: var(--font-padrao);
 }
+a.externo::after {
+    content: '\0020\1F517';
+}
 
 strong {
     background-color: #84e1ac48;
@@ -133,13 +136,13 @@ main p {
 }
 
 main a {
-    background-color: #84e1ac48 ;
-    color: var(--cor2);
-    border: 1px dashed var(--cor1) ;
-    border-radius: 3px;
+    background-color: #84e1ac48;
+    color: var(--cor4);
+    font-size: 1em;
     font-weight: bold;
     text-decoration: none;
-    padding: 3px
+    border-radius: 3px;
+    padding: 3px 5px;
 }
 
 section.intro {
