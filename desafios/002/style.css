@@ -18,6 +18,16 @@ body{
     background-color: white;
 }
 
+a  {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 header{
     background-color: black;
     color: white;
@@ -34,12 +44,6 @@ h1 {
 header p {
     font-size: 1.3em;
     padding-bottom: 50px;
-}
-
-header a  {
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
 }
 
 main {
@@ -91,10 +95,4 @@ footer {
 
 footer p {
     font-size: 2vw;
-}
-
-footer a {
-    color: white;
-    font-weight: bold;
-    text-decoration: none;
 }
